@@ -18,7 +18,7 @@
 # limitations under the License.
 #
 
-include_recipe "apache2"
+include_recipe "httpd"
 include_recipe %w{php::php5 php::module_mysql}
 include_recipe "drupal::drush"
 include_recipe "mysql::server"
